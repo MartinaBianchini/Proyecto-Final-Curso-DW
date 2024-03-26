@@ -44,7 +44,7 @@ body {
 
 .h1kninos {
     text-align: left;
-    font-family: 
+    font-family: "Judson", serif;
     font-size: 80px;
     font-style: normal;
     color: white;
@@ -114,7 +114,7 @@ body {
     justify-content: center;
 }
 
-.grid-a {
+footer {
     display: grid;
     background-color: blueviolet;
     font-family: "Judson", serif;
@@ -144,15 +144,6 @@ body {
     justify-content: center;
 }
 
-.desafio {
-    display: flex;
-    font-size: 15px ;
-    font-style: normal;
-    color: black; 
-    text-align: right;
-    justify-content: right;
-
-}
 
 .img-ig {
     width: 20px;
@@ -179,7 +170,7 @@ body {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 .grid {
@@ -188,18 +179,14 @@ body {
     height: 100vh;
     grid-template-columns: repeat(2, 500px) ;
     grid-template-rows: repeat(4 40px);
+    row-gap: 100px ;
+    column-gap: 100px;
     grid-template-areas: 
     "t-ubicacion ubi-1"
     "t-servicios servi-1"
     "t-fechayhora d-1 d-2"
     "t-informacion info-1"
     ;
-    row-gap: 100px ;
-    column-gap: 100px;
-    justify-content: center;
-    align-items: center;
-
-
 }
 
 .kninos- {
@@ -232,7 +219,6 @@ body {
 
 .t-ubicacion {
     background-color: pink;
-    grid-area: t-ubicacion;
     font-size: 30px;
     margin-top: 30px;
     margin-left: 30%;
@@ -241,59 +227,66 @@ body {
 
 .t-servicios { 
     background-color: rgb(216, 0, 216);
-    grid-area: t-servicio;
     font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30%;
 
 }
 
 
 .t-fechayhora {
     background-color: pink;
-    grid-area: t-fechayhora;
     font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30%;
 
 
 }
 
 .t-informacion { 
     background-color: rgb(216, 0, 216);
-    grid-area: t-informacion;
     font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30%;
 
 }
 
 .ubi-1 {
     background-color: rgb(216, 0, 216);
-    grid-area: ubi-1 ;
     font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30%;
 
 }
 
 .servi-1 {
     background-color: pink;
-    grid-area: servi-1 ;
     font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
 
 }
 
 .d-1 {
     background-color: rgb(216, 0, 216);
-    grid-area: d-1 ;
     font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
 
 
 }
 .d-2 {
-    grid-area:d-2 ;
     background-color: rgb(216, 0, 216);
     font-size: 30px;
-
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
 .info-1 { 
     background-color: pink;
-    grid-area: info-1;
     font-size: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
 
 }
 
