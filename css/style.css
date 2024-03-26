@@ -1,0 +1,599 @@
+/* index*/ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://pixnio.com/free-images/2017/03/13/2017-03-13-10-04-21.jpg");
+    background-position: 0 00;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.perritos-img {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    justify-content: right;
+    margin-left: 65%;
+
+}
+.peinado-inicio {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.barra-inicio {
+    color: white;
+    font-family: "Judson", serif;
+    font-weight: 12.5rem;
+    font-style: normal;
+    font-size: 30px;
+    background-color: rgb(253, 77, 195); 
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+.h1kninos {
+    text-align: left;
+    font-family: "Judson", serif;
+    font-size: 80px;
+    font-style: normal;
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.kninos- {
+    text-align: left;
+    font-family: "Judson", serif;
+    font-size: 80px;
+    font-style: normal;
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.quienes-somos {
+    color: white;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.texto-inicio {
+    text-align: center;
+    color: white;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.alimento { 
+    text-align: center;
+    color: white;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: gray;
+    margin-top: 0px;
+
+}
+
+.venta-1 {
+    text-align: center;
+    color: white;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    background-color: gray ;
+}
+
+.pdescuento {
+    color: black;
+    background-color: blueviolet;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-a {
+    display: grid;
+    background-color: blueviolet;
+    font-family: "Judson", serif;
+    width: 100%;
+    height: 50px;
+    image-orientation: from-image;
+}
+
+.contacto {
+    display: flex;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+    text-align: left ;
+    justify-content: left;
+    margin-left: 30px;
+
+
+}
+
+.nom-dire {
+    display: flex;
+    font-size: 15px ;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.desafio {
+    display: flex;
+    font-size: 15px ;
+    font-style: normal;
+    color: black; 
+    text-align: right;
+    justify-content: right;
+
+}
+
+.img-ig {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.wha-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+.fondovioleta {
+    background-image: url(https://st4.depositphotos.com/23035388/24568/i/450/depositphotos_245686662-stock-illustration-abstract-violet-background-paints-mix.jpg) ;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+/*turnos*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    width: 100px;
+    height: 100vh;
+    grid-template-columns: repeat(2, 500px) ;
+    grid-template-rows: repeat(4 40px);
+    grid-template-areas: 
+    "t-ubicacion ubi-1"
+    "t-servicios servi-1"
+    "t-fechayhora d-1 d-2"
+    "t-informacion info-1"
+    ;
+    row-gap: 100px ;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.kninos- {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 60px;
+    text-align: left;
+}
+
+.titulo-turnos { 
+    color: black;
+    font-family: "Judson", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.reserva {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.t-ubicacion {
+    background-color: pink;
+    grid-area: t-ubicacion;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30%;
+
+}
+
+.t-servicios { 
+    background-color: rgb(216, 0, 216);
+    grid-area: t-servicio;
+    font-size: 30px;
+
+}
+
+
+.t-fechayhora {
+    background-color: pink;
+    grid-area: t-fechayhora;
+    font-size: 30px;
+
+
+}
+
+.t-informacion { 
+    background-color: rgb(216, 0, 216);
+    grid-area: t-informacion;
+    font-size: 30px;
+
+}
+
+.ubi-1 {
+    background-color: rgb(216, 0, 216);
+    grid-area: ubi-1 ;
+    font-size: 30px;
+
+}
+
+.servi-1 {
+    background-color: pink;
+    grid-area: servi-1 ;
+    font-size: 30px;
+
+}
+
+.d-1 {
+    background-color: rgb(216, 0, 216);
+    grid-area: d-1 ;
+    font-size: 30px;
+
+
+}
+.d-2 {
+    grid-area:d-2 ;
+    background-color: rgb(216, 0, 216);
+    font-size: 30px;
+
+}
+
+.info-1 { 
+    background-color: pink;
+    grid-area: info-1;
+    font-size: 30px;
+
+}
+
+
+/*accesorios*/
+
+.inicio-acc {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.accesorios-img{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-rows: auto;
+    row-gap: 3.125rem;
+    column-gap: 60px;
+    grid-template-columns: auto;
+    
+
+}
+
+.bozal-generico {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.bozal-grande {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.cepillo-dientes {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.collar-pequeña {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.collar-colores {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.moises {
+    display: flex;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.platos {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.bulldog-1 {
+    display: flex;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.bulldog-2 {
+    display: flex;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+
+}
+
+
+/*productos veterinarios*/
+
+.inicio-product {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.productosvet-img { 
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-rows:min-content;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.anti-cachorro { 
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.anti-grande {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anti-gigante {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-grande {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-medio {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-peque {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.etchol {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.polvo-cica {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.spray-can {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.talco-pulgas {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.royal-ad {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.royal-med {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.royal-pu {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
