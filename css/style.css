@@ -633,46 +633,100 @@ footer {
     margin-left: 30%;
 }
 
+/*index medida tablet*/
+
 @media (max-width:1023px) {
     .pdescuento{
-        display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         background-size: cover;
-
-
+        height: 25px;
+        font-size: 20px;
     }
     .h1kninos {
-        display: flex;
+        flex-direction: column;
         justify-content: left;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .barra-inicio{
         display: flex;
         justify-content: space-around;
+        height: 30px;
+        font-size: 20px;
+
     }
     .quienes-somos{
-        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
+        font-size: 30px;
     }
     .texto-inicio{
-        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
+        font-size: 32px;
     }
     .peinado-inicio{
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: left;
         align-items: center;
+
+    }
+
+    .perritos {
+        flex-direction: column;
+        justify-content: right;
+
+
     }
     .alimeto{
-        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .venta-1{
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .venta-1{
-        display: flex;
+
+
+body {
+    flex-direction: column;
+    background-size: cover;
+    width: 768px;
+    height: 1023px;
+
+}
+}
+
+/*Responsive tablet accesorios*/
+
+@media (max-width: 63.9375rem){
+    .grids-container{
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        
+    }
+    .inicio-acc {
+        display: flex;
+
+    }
+    .accesorios-img {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 5px;
+        margin-right: 5px;
+        grid-template-rows: auto;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-columns: auto;
     }
 }
