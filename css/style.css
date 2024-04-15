@@ -5,18 +5,17 @@
 }
 
 body {
-    background-image: url("https://pixnio.com/free-images/2017/03/13/2017-03-13-10-04-21.jpg");
-    background-position: 0 00;
+    background-image:url("https://pixnio.com/free-images/2017/03/13/2017-03-13-10-04-21.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+
 .perritos-img {
     display: flex;
     width: 500px;
     height: 250px;
-    justify-content: right;
     margin-left: 65%;
 
 }
@@ -119,13 +118,13 @@ footer {
     background-color: blueviolet;
     font-family: "Judson", serif;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .foot-con {
     display: flex;
-    text-align: left;
-    justify-content: space-between;
+    margin-top: 10px ;
+
 }
 
 
@@ -134,18 +133,17 @@ footer {
     font-size: 15px;
     font-style: normal;
     color: black;
-    text-align: left ;
-    justify-content: left;
+    text-align: left;
+    
 }
 
 
 .nom-dire {
     display: flex;
     font-size: 15px ;
-    font-style: normal;
     color: black; 
+    margin-left: 500px;
     text-align: center;
-    justify-content: center;
 }
 
 .desafio{
@@ -154,6 +152,7 @@ footer {
     font-style: normal;
     color: black;
     text-align: right;
+
 }
 
 .iconos {
@@ -175,21 +174,6 @@ footer {
     margin: 0;
     padding: 0;
 }
-.grid {
-    display: grid;
-    width: 100px;
-    height: 100vh;
-    grid-template-columns: repeat(2, 500px) ;
-    grid-template-rows: repeat(4 40px);
-    row-gap: 100px ;
-    column-gap: 100px;
-    grid-template-areas: 
-    "t-ubicacion ubi-1"
-    "t-servicios servi-1"
-    "t-fechayhora d-1 d-2"
-    "t-informacion info-1"
-    ;
-}
 
 .kninos- {
     font-family: "Judson", serif;
@@ -198,111 +182,114 @@ footer {
     color: black;
     font-size: 60px;
     text-align: left;
-    
 }
 
 .titulo-turnos { 
+    display: flex;
     color: black;
     font-family: "Judson", serif;
     font-weight: 200;
     font-style: normal;
     font-size: 35px;
     text-align: center;
-    display: flex;
     justify-content: center;
-    
-
 }
 
-.reserva {
-    color: black;
+.tabla-turnos {
+    display: flexbox;
+    height: 800px;
+    align-items: center;
+    margin-left: 250px;
+
+}
+.t-ubicacion {
+    background-color: rgba(216, 0, 216, 0.434);;
     font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30%;
+    justify-content: center;
     text-align: center;
 }
 
-.t-ubicacion {
-    background-color: pink;
-    font-size: 10px;
-    margin-top: 5px;
-    margin-left: 30%;
-    grid-template-areas: t-ubicacion ;
-}
+
 
 .t-servicios { 
-    background-color: rgb(216, 0, 216);
-    font-size: 10px;
+    background-color: rgba(216, 0, 216, 0.434);
+    font-size: 20px;
     margin-top: 5px;
     margin-left: 30%;
-    grid-template-areas: t-servicios ;
+    justify-content: center;
+    text-align: center;
 }
 
 
 .t-fechayhora {
-    background-color: pink;
-    font-size: 10px;
+    background-color:rgba(216, 0, 216, 0.434);;
+    font-size: 20px;
     margin-top: 5px;
     margin-left: 30%;
-    grid-template-areas: t-fechayhora;
-
-
+    text-align: center;
 }
 
 .t-informacion { 
-    background-color: rgb(216, 0, 216);
-    font-size: 10px;
+    background-color:rgba(216, 0, 216, 0.434);;
+    font-size: 20px;
     margin-top: 5px;
     margin-left: 30%;
-    grid-template-areas: t-informacion;
-
+    justify-content: center;
+    text-align: center;
 }
 
 .ubi-1 {
-    background-color: rgb(216, 0, 216);
-    font-size: 10px;
-    margin-top: 5px;
-    margin-left: 30%;
-    grid-template-areas: ubi-1;
-
+    background-color:rgba(216, 0, 216, 0.434);;
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
 }
 
 .servi-1 {
-    background-color: pink;
-    font-size: 10px;
-    margin-right: 30px;
-    margin-top: 5px;
-    grid-template-areas: servi-1;
+    background-color: rgba(216, 0, 216, 0.434);;
+    text-align: center;
+    justify-content: left;
 
+}
+
+.lista-servi {
+    font-size: 20px;
+    text-align: left;
+    justify-content: left;
+    list-style: none;
+    margin-left: 160px;
 }
 
 .d-1 {
-    background-color: rgb(216, 0, 216);
-    font-size: 10px;
+    background-color: rgba(216, 0, 216, 0.434);;
+    font-size: 20px;
     margin-right: 30px;
     margin-top: 5px;
-    grid-template-areas: d-1;
+    text-align: center;
+    
 
-
-}
-.d-2 {
-    background-color: rgb(216, 0, 216);
-    font-size: 10px;
-    margin-right: 30px;
-    margin-top: 5px;
-    grid-template-areas: d-2;
 }
 
 .info-1 { 
-    background-color: pink;
-    font-size: 10px;
-    margin-right: 30px;
-    margin-top: 5px;
-    justify-content: space-between;
-    grid-template-areas: info-1;
+    background-color: rgba(216, 0, 216, 0.434);;
+    font-size: 20px;
+    text-align: left;
+    justify-content: left;
+    
 
 }
 
-.baño-1 {
-    list-style: none;
+.boton-conf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 
@@ -339,10 +326,9 @@ footer {
     margin-top: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+
 }
+
 
 .bozal-grande {
     display: flex;
@@ -450,6 +436,107 @@ footer {
 
 }
 
+.colchon-1{
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.colchon-2{
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+.juguete-snack {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.juguete-soga {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.pasta-dental {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+.platos-acero { 
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.platos-regulable {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.platos-plastico {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
 
 /*productos veterinarios*/
 
@@ -635,98 +722,309 @@ footer {
 
 /*index medida tablet*/
 
-@media (max-width:1023px) {
-    .pdescuento{
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background-size: cover;
-        height: 25px;
-        font-size: 20px;
-    }
+@media (max-width: 1023px) {
     .h1kninos {
         flex-direction: column;
         justify-content: left;
-        font-size: 40px;
+        font-size: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .barra-inicio{
-        display: flex;
-        justify-content: space-around;
-        height: 30px;
-        font-size: 20px;
 
-    }
-    .quienes-somos{
+    .pdescuento{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        height: 10px;
+        font-size: 10px;
+        width: 320px;
+    }
+
+    .barra-inicio{
+        justify-content: space-around;
+        height: 40px;
+        font-size: 25px;
+        width: 1023px;
+    }
+
+    .quienes-somos{
+        display: flex;
+        font-size: 50px;
         text-align: center;
-        font-size: 30px;
+        justify-content: center;
+        margin-left: 30%;
+
     }
     .texto-inicio{
-        flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
-        font-size: 32px;
+        font-size: 40px;
+        margin-left: 30%;
     }
     .peinado-inicio{
-        flex-direction: column;
-        justify-content: left;
-        align-items: center;
-
-    }
-
-    .perritos {
-        flex-direction: column;
-        justify-content: right;
-
-
-    }
-    .alimeto{
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        margin-left: 30%;
+        margin-top: 0%;
+        width: 200px;
+        height: 200px;
 
+    }
+
+    .perritos-img {
+        justify-items: center;
+        margin-right: 100%;
+        align-items: center;
+        width: 200px;
+        height: 100px ;
+
+    }
+    
+    .alimento{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1023px;
     }
     .venta-1{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        width: 1023px;
     }
 
 
 body {
     flex-direction: column;
-    background-size: cover;
+    background-size: cover ;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    justify-content: space-between;
     width: 768px;
-    height: 1023px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.contacto {
+    font-size: 10px;
+    font-style: normal;
+    text-align: left;
+    
+}
+
+
+.nom-dire {
+    font-size: 10px ;
+    margin-left: 500px;
+    text-align: ;
+}
+
+.desafio{
+    font-size: 10px ;
+    text-align: right;
+}
+
+.iconos {
+    justify-content: left;
+    width: 10px;
+    height: 10px;
+}
+
 
 }
-}
 
-/*Responsive tablet accesorios*/
+/*Responsive tablet turnos*/
 
-@media (max-width: 63.9375rem){
-    .grids-container{
+@media (max-width: 1023px){
+    .body { 
+        margin: 0;
+        padding: 0;
+    }
+    .fondovioleta {
+        justify-content: cover;
+    }
+
+    .kninos- {
         flex-direction: column;
+        justify-content: left;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .barra-inicio {
+        justify-content: space-between;
+        height: 25px;
+        font-size: 20px;
+        width: 768px;
+    }
+
+    .titulo-turnos{
+        text-align: center;
+
+    }
+
+    .tabla-turnos {
         justify-content: center;
+        width: 100%;
+        height: 500%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        justify-content: space-between;
+        width: 768px;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contacto {
+        font-size: 10px;
+        font-style: normal;
+        text-align: left;
         
     }
-    .inicio-acc {
-        display: flex;
+    
+    
+    .nom-dire {
+        font-size: 10px ;
+        margin-left: 500px;
+        text-align: ;
+    }
+    
+    .desafio{
+        font-size: 10px ;
+        text-align: right;
+    }
+    
+    .iconos {
+        justify-content: left;
+        width: 10px;
+        height: 10px;
+    }
+}
 
+/*Responsive movil index*/
+
+@media screen and (max-width: 20rem){
+    body {
+        margin: 0%;
+        padding: 0%;
+        flex-direction: column;
+        background-size: cover ;
+        justify-content: space-evenly;
+}
+
+    .h1kninos {
+        flex-direction: row;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
     }
-    .accesorios-img {
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 5px;
-        margin-right: 5px;
-        grid-template-rows: auto;
-        row-gap: 10px;
-        column-gap: 10px;
-        grid-template-columns: auto;
+    .pdescuento{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-size: cover;
+        height: 25px;
+        font-size: 15px;
+        width: 320px;
     }
+
+    .barra-inicio{
+        flex-direction: column;
+        background-size: contain;
+        justify-content: space-between;
+        height: 40px;
+        font-size: 15px;
+        width: 320px;
+
+}
+.quienes-somos{
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20%;
+
+}
+.texto-inicio{
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+
+}
+.peinado-inicio{
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-left: 30%;
+    align-items: center;
+    image-resolution: 20px;
+    
+
+}
+.perritos-img {
+    justify-items: center;
+    margin-right: 100%;
+    align-items: center;
+
+
+}
+
+.alimento{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    font-size: 10px;
+}
+.venta-1{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 320px;
+    font-size: 10px;
+}
+
+footer {
+    justify-content: space-between;
+    width: 320px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.contacto {
+    font-size: 5px;
+    font-style: normal;
+    text-align: left;
+    
+}
+
+.nom-dire {
+    font-size: 5px ;
+    margin-left: ;
+    text-align: center ;
+}
+
+.desafio{
+    font-size: 5px ;
+    text-align: right;
+
+}
+
+.iconos {
+    justify-content: left;
+    width: 8px;
+    height: 8px;
+}
+
+
 }
