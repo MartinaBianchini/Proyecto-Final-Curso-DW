@@ -1,0 +1,269 @@
+/*accesorios*/
+header {
+    .kninos- {
+        font-family: "Judson", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .barra-inicio {
+        color: white;
+        font-family: "Judson", serif;
+        font-weight: 12.5rem;
+        font-style: normal;
+        font-size: 30px;
+        background-color: rgba(253, 77, 194, 0.77);
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+section {
+    .inicio-acc {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+
+    .accesorios-img {
+        display: flex;
+        margin-top: 100px;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-rows: auto;
+        row-gap: 3.125rem;
+        column-gap: 60px;
+        grid-template-columns: auto;
+    }
+
+    .bozal-generico {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+
+    .bozal-grande {
+        display: flex;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .cepillo-dientes {
+        display: flex;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .collar-pequeña {
+        display: flex;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .collar-colores {
+        display: flex;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .moises {
+        display: flex;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .platos {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .bulldog-1 {
+        display: flex;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .bulldog-2 {
+        display: flex;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+
+    }
+
+    .colchon-1 {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .colchon-2 {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .juguete-snack {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .juguete-soga {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .pasta-dental {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .platos-acero {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .platos-regulable {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+
+    .platos-plastico {
+        display: flex;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        row-gap: 6.25rem;
+        column-gap: 150px;
+    }
+}

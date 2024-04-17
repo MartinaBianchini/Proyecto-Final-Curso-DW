@@ -1,0 +1,182 @@
+@media (max-width: 1023px) {
+    .h1kninos {
+        flex-direction: column;
+        justify-content: left;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pdescuento{
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        height: 10px;
+        font-size: 10px;
+        width: 320px;
+    }
+
+    .barra-inicio{
+        justify-content: space-around;
+        height: 40px;
+        font-size: 25px;
+        width: 1023px;
+    }
+
+    .quienes-somos{
+        display: flex;
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 30%;
+
+    }
+    .texto-inicio{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 30%;
+    }
+    .peinado-inicio{
+        justify-content: center;
+        margin-left: 30%;
+        margin-top: 0%;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .perritos-img {
+        justify-items: center;
+        margin-right: 100%;
+        align-items: center;
+        width: 200px;
+        height: 100px ;
+
+    }
+    
+    .alimento{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1023px;
+    }
+    .venta-1{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1023px;
+    }
+
+
+body {
+    flex-direction: column;
+    background-size: cover ;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    justify-content: space-between;
+    width: 768px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.contacto {
+    font-size: 10px;
+    font-style: normal;
+    text-align: left;
+    
+}
+
+
+.nom-dire {
+    font-size: 10px ;
+    margin-left: 500px;
+
+}
+.desafio{
+    font-size: 10px ;
+    text-align: right;
+}
+
+.iconos {
+    justify-content: left;
+    width: 10px;
+    height: 10px;
+}
+}
+/*Responsive tablet turnos*/
+
+@media (max-width: 1023px){
+    .body { 
+        margin: 0;
+        padding: 0;
+    }
+    .fondovioleta {
+        justify-content: cover;
+    }
+
+    .kninos- {
+        flex-direction: column;
+        justify-content: left;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .barra-inicio {
+        justify-content: space-between;
+        height: 25px;
+        font-size: 20px;
+        width: 768px;
+    }
+
+    .titulo-turnos{
+        text-align: center;
+
+    }
+
+    .tabla-turnos {
+        justify-content: center;
+        width: 100%;
+        height: 500%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        justify-content: space-between;
+        width: 768px;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contacto {
+        font-size: 10px;
+        font-style: normal;
+        text-align: left;
+        
+    }
+    
+    
+    .nom-dire {
+        font-size: 10px ;
+        margin-left: 500px;
+    }
+    
+    .desafio{
+        font-size: 10px ;
+        text-align: right;
+    }
+    
+    .iconos {
+        justify-content: left;
+        width: 10px;
+        height: 10px;
+    }
+}

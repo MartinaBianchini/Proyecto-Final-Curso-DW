@@ -1,0 +1,84 @@
+
+
+body {
+    * {
+    margin: 0;
+    padding: 0;
+}
+    .kninos- {
+        text-align: left;
+        font-family: "Judson", serif;
+        font-size: 80px;
+        font-style: normal;
+        color: white;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .barra-inicio {
+        color: white;
+        font-family: "Judson", serif;
+        font-weight: 12.5rem;
+        font-style: normal;
+        font-size: 30px;
+        background-color: rgba(253, 77, 194, 0.77);
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        background-color: blueviolet;
+        font-family: "Judson", serif;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .foot-con {
+        display: flex;
+        margin-top: 10px;
+
+    }
+
+    .contacto {
+        display: flex;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        text-align: left;
+
+    }
+
+    .nom-dire {
+        display: flex;
+        font-size: 15px;
+        color: black;
+        margin-left: 500px;
+        text-align: center;
+    }
+
+    .desafio {
+        display: flex;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        text-align: right;
+
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: left;
+        width: 30px;
+        height: 30px;
+    }
+    
+
+}
+
+    .fondovioleta {
+    background-image: url(https://st4.depositphotos.com/23035388/24568/i/450/depositphotos_245686662-stock-illustration-abstract-violet-background-paints-mix.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}

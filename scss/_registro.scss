@@ -1,0 +1,153 @@
+/*productos veterinarios*/
+
+.inicio-product {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.productosvet-img { 
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-rows:min-content;
+    row-gap: 6.25rem;
+    column-gap: 150px;
+}
+
+.anti-cachorro { 
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.anti-grande {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anti-gigante {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-grande {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-medio {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block-peque {
+    display: flex;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.etchol {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.polvo-cica {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.spray-can {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.talco-pulgas {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.royal-ad {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.royal-med {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.royal-pu {
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}

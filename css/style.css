@@ -1,1030 +1,1091 @@
-/* index*/ 
-* {
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+body * {
+  margin: 0;
+  padding: 0;
+}
+body .kninos- {
+  text-align: left;
+  font-family: "Judson", serif;
+  font-size: 80px;
+  font-style: normal;
+  color: white;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+body .barra-inicio {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 12.5rem;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(253, 77, 194, 0.77);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+body footer {
+  display: flex;
+  background-color: blueviolet;
+  font-family: "Judson", serif;
+  width: 100%;
+  justify-content: center;
+}
+body .foot-con {
+  display: flex;
+  margin-top: 10px;
+}
+body .contacto {
+  display: flex;
+  font-size: 15px;
+  font-style: normal;
+  color: black;
+  text-align: left;
+}
+body .nom-dire {
+  display: flex;
+  font-size: 15px;
+  color: black;
+  margin-left: 500px;
+  text-align: center;
+}
+body .desafio {
+  display: flex;
+  font-size: 15px;
+  font-style: normal;
+  color: black;
+  text-align: right;
+}
+body .iconos {
+  display: flex;
+  justify-content: left;
+  width: 30px;
+  height: 30px;
+}
+
+.fondovioleta {
+  background-image: url(https://st4.depositphotos.com/23035388/24568/i/450/depositphotos_245686662-stock-illustration-abstract-violet-background-paints-mix.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 body {
-    background-image:url("https://pixnio.com/free-images/2017/03/13/2017-03-13-10-04-21.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url("https://pixnio.com/free-images/2017/03/13/2017-03-13-10-04-21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-
-.perritos-img {
-    display: flex;
-    width: 500px;
-    height: 250px;
-    margin-left: 65%;
-
+header .pdescuento {
+  color: black;
+  background-color: rgb(137, 43, 226);
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
-.peinado-inicio {
-    display: flex;
-    width: 600px;
-    height: 600px;
-    justify-content: center;
-    margin-left: 30%;
-}
-
-.barra-inicio {
-    color: white;
-    font-family: "Judson", serif;
-    font-weight: 12.5rem;
-    font-style: normal;
-    font-size: 30px;
-    background-color: rgba(253, 77, 194, 0.77); 
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-
+header .h1kninos {
+  text-align: left;
+  font-family: "Judson", serif;
+  font-size: 80px;
+  font-style: normal;
+  color: white;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
-.h1kninos {
-    text-align: left;
-    font-family: "Judson", serif;
-    font-size: 80px;
-    font-style: normal;
-    color: white;
-    margin-top: 5px;
-    margin-left: 20px;
+section .barra-inicio {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 12.5rem;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(253, 77, 194, 0.77);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+section .quienes-somos {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5%;
+}
+section .texto-inicio {
+  text-align: center;
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+section .perritos-img {
+  display: flex;
+  width: 500px;
+  height: 250px;
+  margin-left: 65%;
+}
+section .peinado-inicio {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  margin-left: 30%;
+}
+section .alimento {
+  text-align: center;
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(128, 128, 128, 0.567);
+  margin-top: 0px;
+}
+section .venta-1 {
+  text-align: center;
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(128, 128, 128, 0.567);
 }
 
-.kninos- {
-    text-align: left;
-    font-family: "Judson", serif;
-    font-size: 80px;
-    font-style: normal;
-    color: white;
-    margin-top: 5px;
-    margin-left: 20px;
-}
-
-.quienes-somos {
-    color: white;
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.texto-inicio {
-    text-align: center;
-    color: white;
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 35px;
-}
-
-.alimento { 
-    text-align: center;
-    color: white;
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    background-color: rgba(128, 128, 128, 0.567);
-    margin-top: 0px;
-
-}
-
-.venta-1 {
-    text-align: center;
-    color: white;
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    background-color: rgba(128, 128, 128, 0.567);
-}
-
-.pdescuento {
-    color: black;
-    background-color: rgb(137, 43, 226);
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-}
-
-footer {
-    display: flex;
-    background-color: blueviolet;
-    font-family: "Judson", serif;
-    width: 100%;
-    justify-content: center;
-}
-
-.foot-con {
-    display: flex;
-    margin-top: 10px ;
-
-}
-
-
-.contacto {
-    display: flex;
-    font-size: 15px;
-    font-style: normal;
-    color: black;
-    text-align: left;
-    
-}
-
-
-.nom-dire {
-    display: flex;
-    font-size: 15px ;
-    color: black; 
-    margin-left: 500px;
-    text-align: center;
-}
-
-.desafio{
-    display: flex;
-    font-size: 15px ;
-    font-style: normal;
-    color: black;
-    text-align: right;
-
-}
-
-.iconos {
-    display: flex;
-    justify-content: left;
-    width: 30px;
-    height: 30px;
-}
-
-
-.fondovioleta {
-    background-image: url(https://st4.depositphotos.com/23035388/24568/i/450/depositphotos_245686662-stock-illustration-abstract-violet-background-paints-mix.jpg) ;
-    background-repeat: no-repeat;
-    background-position: 100%;
-}
-
-/*turnos*/ 
+/*turnos*/
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.kninos- {
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-    font-size: 60px;
-    text-align: left;
+header .kninos- {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+  text-align: left;
+}
+header .barra-inicio {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 12.5rem;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(253, 77, 194, 0.77);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+header .titulo-turnos {
+  display: flex;
+  color: black;
+  font-family: "Judson", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  justify-content: center;
 }
 
-.titulo-turnos { 
-    display: flex;
-    color: black;
-    font-family: "Judson", serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 35px;
-    text-align: center;
-    justify-content: center;
+main .tabla-turnos {
+  display: flexbox;
+  height: 800px;
+  align-items: center;
+  margin-left: 250px;
 }
-
-.tabla-turnos {
-    display: flexbox;
-    height: 800px;
-    align-items: center;
-    margin-left: 250px;
-
+main .t-ubicacion {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 30%;
+  justify-content: center;
+  text-align: center;
 }
-.t-ubicacion {
-    background-color: rgba(216, 0, 216, 0.434);;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-left: 30%;
-    justify-content: center;
-    text-align: center;
+main .t-servicios {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 30%;
+  justify-content: center;
+  text-align: center;
 }
-
-
-
-.t-servicios { 
-    background-color: rgba(216, 0, 216, 0.434);
-    font-size: 20px;
-    margin-top: 5px;
-    margin-left: 30%;
-    justify-content: center;
-    text-align: center;
+main .t-fechayhora {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 30%;
+  text-align: center;
 }
-
-
-.t-fechayhora {
-    background-color:rgba(216, 0, 216, 0.434);;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-left: 30%;
-    text-align: center;
+main .t-informacion {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 30%;
+  justify-content: center;
+  text-align: center;
 }
-
-.t-informacion { 
-    background-color:rgba(216, 0, 216, 0.434);;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-left: 30%;
-    justify-content: center;
-    text-align: center;
+main .ubi-1 {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  text-align: center;
+  justify-content: left;
 }
-
-.ubi-1 {
-    background-color:rgba(216, 0, 216, 0.434);;
-    font-size: 20px;
-    text-align: center;
-    justify-content: left;
+main .servi-1 {
+  background-color: rgba(216, 0, 216, 0.434);
+  text-align: center;
+  justify-content: left;
 }
-
-.servi-1 {
-    background-color: rgba(216, 0, 216, 0.434);;
-    text-align: center;
-    justify-content: left;
-
+main .lista-servi {
+  font-size: 20px;
+  text-align: left;
+  justify-content: left;
+  list-style: none;
+  margin-left: 160px;
 }
-
-.lista-servi {
-    font-size: 20px;
-    text-align: left;
-    justify-content: left;
-    list-style: none;
-    margin-left: 160px;
+main .d-1 {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  margin-right: 30px;
+  margin-top: 5px;
+  text-align: center;
 }
-
-.d-1 {
-    background-color: rgba(216, 0, 216, 0.434);;
-    font-size: 20px;
-    margin-right: 30px;
-    margin-top: 5px;
-    text-align: center;
-    
-
+main .info-1 {
+  background-color: rgba(216, 0, 216, 0.434);
+  font-size: 20px;
+  text-align: left;
+  justify-content: left;
 }
-
-.info-1 { 
-    background-color: rgba(216, 0, 216, 0.434);;
-    font-size: 20px;
-    text-align: left;
-    justify-content: left;
-    
-
+main .boton-conf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 10px;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 20px;
 }
-
-.boton-conf {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 10px;
-    font-weight: bold;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
 
 /*accesorios*/
-
-.inicio-acc {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
-    font-size: 30px;
+header .kninos- {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+  text-align: left;
+}
+header .barra-inicio {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 12.5rem;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(253, 77, 194, 0.77);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
-.accesorios-img{
-    display: flex;
-    margin-top: 100px;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-    grid-template-rows: auto;
-    row-gap: 3.125rem;
-    column-gap: 60px;
-    grid-template-columns: auto;
-    
-
+section .inicio-acc {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
 }
-
-.bozal-generico {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+section .accesorios-img {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-rows: auto;
+  row-gap: 3.125rem;
+  column-gap: 60px;
+  grid-template-columns: auto;
 }
-
-
-.bozal-grande {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .bozal-generico {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
-.cepillo-dientes {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .bozal-grande {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.collar-pequeña {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .cepillo-dientes {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.collar-colores {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .collar-pequeña {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.moises {
-    display: flex;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .collar-colores {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.platos {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .moises {
+  display: flex;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.bulldog-1 {
-    display: flex;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .platos {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.bulldog-2 {
-    display: flex;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
-
+section .bulldog-1 {
+  display: flex;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.colchon-1{
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .bulldog-2 {
+  display: flex;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.colchon-2{
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .colchon-1 {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-.juguete-snack {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .colchon-2 {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.juguete-soga {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .juguete-snack {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.pasta-dental {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .juguete-soga {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-.platos-acero { 
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .pasta-dental {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.platos-regulable {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .platos-acero {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
-
-.platos-plastico {
-    display: flex;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 200px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+section .platos-regulable {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
+}
+section .platos-plastico {
+  display: flex;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
 
 /*productos veterinarios*/
+header .kninos- {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+  text-align: left;
+}
+header .barra-inicio {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 12.5rem;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(253, 77, 194, 0.77);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
 
+section .inicio-product {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+section .productosvet-img {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-rows: min-content;
+  row-gap: 6.25rem;
+  column-gap: 150px;
+}
+section .anti-cachorro {
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .anti-grande {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .anti-gigante {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .block-grande {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .block-medio {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .block-peque {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .etchol {
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .polvo-cica {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .spray-can {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+section .talco-pulgas {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .royal-ad {
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+section .royal-med {
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+section .royal-pu {
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+/*productos veterinarios*/
 .inicio-product {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
-    font-size: 30px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
 }
 
-.productosvet-img { 
-    display: flex;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 20px;
-    grid-template-rows:min-content;
-    row-gap: 6.25rem;
-    column-gap: 150px;
+.productosvet-img {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-rows: min-content;
+  row-gap: 6.25rem;
+  column-gap: 150px;
 }
 
-.anti-cachorro { 
-    display: flex;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.anti-cachorro {
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .anti-grande {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .anti-gigante {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .block-grande {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .block-medio {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .block-peque {
-    display: flex;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .etchol {
-    display: flex;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .polvo-cica {
-    display: flex;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .spray-can {
-    display: flex;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .talco-pulgas {
-    display: flex;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .royal-ad {
-    display: flex;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .royal-med {
-    display: flex;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .royal-pu {
-    display: flex;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 250px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-}
-
-/*Registro*/
-* {
-    margin: 0;
-    padding: 0;
-}
-.cuenta-1 {
-    color: black;
-    font-family: "Judson", serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.grid-container {
-    display: grid;
-    width: 100px;
-    height: 100vh;
-    row-gap: 20px ;
-    column-gap: 100px;
-    justify-content: center;
-    grid-template-rows: repeat(2, 40px);
-    margin-left: 30%;
-}
-
-/*index medida tablet*/
-
-@media (max-width: 1023px) {
-    .h1kninos {
-        flex-direction: column;
-        justify-content: left;
-        font-size: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .pdescuento{
-        flex-direction: column;
-        align-items: center;
-        background-size: cover;
-        height: 10px;
-        font-size: 10px;
-        width: 320px;
-    }
-
-    .barra-inicio{
-        justify-content: space-around;
-        height: 40px;
-        font-size: 25px;
-        width: 1023px;
-    }
-
-    .quienes-somos{
-        display: flex;
-        font-size: 50px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 30%;
-
-    }
-    .texto-inicio{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 40px;
-        margin-left: 30%;
-    }
-    .peinado-inicio{
-        justify-content: center;
-        margin-left: 30%;
-        margin-top: 0%;
-        width: 200px;
-        height: 200px;
-
-    }
-
-    .perritos-img {
-        justify-items: center;
-        margin-right: 100%;
-        align-items: center;
-        width: 200px;
-        height: 100px ;
-
-    }
-    
-    .alimento{
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 1023px;
-    }
-    .venta-1{
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 1023px;
-    }
-
-
-body {
-    flex-direction: column;
-    background-size: cover ;
-    justify-content: space-evenly;
-
-}
-
-footer {
-    justify-content: space-between;
-    width: 768px;
-    height: 40px;
-    text-align: center;
-    align-items: center;
-}
-
-.contacto {
-    font-size: 10px;
-    font-style: normal;
-    text-align: left;
-    
-}
-
-
-.nom-dire {
-    font-size: 10px ;
-    margin-left: 500px;
-    text-align: ;
-}
-
-.desafio{
-    font-size: 10px ;
-    text-align: right;
-}
-
-.iconos {
-    justify-content: left;
-    width: 10px;
-    height: 10px;
-}
-
-
-}
-
-/*Responsive tablet turnos*/
-
-@media (max-width: 1023px){
-    .body { 
-        margin: 0;
-        padding: 0;
-    }
-    .fondovioleta {
-        justify-content: cover;
-    }
-
-    .kninos- {
-        flex-direction: column;
-        justify-content: left;
-        font-size: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .barra-inicio {
-        justify-content: space-between;
-        height: 25px;
-        font-size: 20px;
-        width: 768px;
-    }
-
-    .titulo-turnos{
-        text-align: center;
-
-    }
-
-    .tabla-turnos {
-        justify-content: center;
-        width: 100%;
-        height: 500%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    footer {
-        justify-content: space-between;
-        width: 768px;
-        height: 40px;
-        text-align: center;
-        align-items: center;
-    }
-
-    .contacto {
-        font-size: 10px;
-        font-style: normal;
-        text-align: left;
-        
-    }
-    
-    
-    .nom-dire {
-        font-size: 10px ;
-        margin-left: 500px;
-        text-align: ;
-    }
-    
-    .desafio{
-        font-size: 10px ;
-        text-align: right;
-    }
-    
-    .iconos {
-        justify-content: left;
-        width: 10px;
-        height: 10px;
-    }
+  display: flex;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 /*Responsive movil index*/
-
-@media screen and (max-width: 20rem){
-    body {
-        margin: 0%;
-        padding: 0%;
-        flex-direction: column;
-        background-size: cover ;
-        justify-content: space-evenly;
-}
-
-    .h1kninos {
-        flex-direction: row;
-        text-align: left;
-        margin-top: 20px;
-        margin-left: 20px;
-        font-size: 20px;
-    }
-    .pdescuento{
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        background-size: cover;
-        height: 25px;
-        font-size: 15px;
-        width: 320px;
-    }
-
-    .barra-inicio{
-        flex-direction: column;
-        background-size: contain;
-        justify-content: space-between;
-        height: 40px;
-        font-size: 15px;
-        width: 320px;
-
-}
-.quienes-somos{
+@media screen and (max-width: 20rem) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: space-evenly;
+  }
+  .h1kninos {
+    flex-direction: row;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .pdescuento {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    height: 25px;
+    font-size: 15px;
+    width: 320px;
+  }
+  .barra-inicio {
+    flex-direction: column;
+    background-size: contain;
+    justify-content: space-between;
+    height: 40px;
+    font-size: 15px;
+    width: 320px;
+  }
+  .quienes-somos {
     flex-direction: column;
     font-size: 15px;
     text-align: center;
     margin-top: 20%;
-
-}
-.texto-inicio{
+  }
+  .texto-inicio {
     flex-direction: column;
     text-align: center;
     font-size: 10px;
-
-}
-.peinado-inicio{
+  }
+  .peinado-inicio {
     flex-direction: row-reverse;
     justify-content: center;
     margin-left: 30%;
     align-items: center;
     image-resolution: 20px;
-    
-
-}
-.perritos-img {
+  }
+  .perritos-img {
     justify-items: center;
     margin-right: 100%;
     align-items: center;
-
-
-}
-
-.alimento{
+  }
+  .alimento {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     width: 320px;
     font-size: 10px;
-}
-.venta-1{
+  }
+  .venta-1 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     width: 320px;
     font-size: 10px;
-}
-
-footer {
+  }
+  footer {
     justify-content: space-between;
     width: 320px;
     height: 20px;
     text-align: center;
     align-items: center;
     margin-bottom: auto;
-}
-
-.contacto {
+  }
+  .contacto {
     font-size: 5px;
     font-style: normal;
     text-align: left;
-    
-}
-
-.nom-dire {
-    font-size: 5px ;
-    margin-left: ;
-    text-align: center ;
-}
-
-.desafio{
-    font-size: 5px ;
+  }
+  .nom-dire {
+    font-size: 5px;
+    text-align: center;
+  }
+  .desafio {
+    font-size: 5px;
     text-align: right;
-
-}
-
-.iconos {
+  }
+  .iconos {
     justify-content: left;
     width: 8px;
     height: 8px;
+  }
+}
+@media (max-width: 1023px) {
+  .h1kninos {
+    flex-direction: column;
+    justify-content: left;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pdescuento {
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    height: 10px;
+    font-size: 10px;
+    width: 320px;
+  }
+  .barra-inicio {
+    justify-content: space-around;
+    height: 40px;
+    font-size: 25px;
+    width: 1023px;
+  }
+  .quienes-somos {
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+  }
+  .texto-inicio {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30%;
+  }
+  .peinado-inicio {
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 0%;
+    width: 200px;
+    height: 200px;
+  }
+  .perritos-img {
+    justify-items: center;
+    margin-right: 100%;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+  }
+  .alimento {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1023px;
+  }
+  .venta-1 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1023px;
+  }
+  body {
+    flex-direction: column;
+    background-size: cover;
+    justify-content: space-evenly;
+  }
+  footer {
+    justify-content: space-between;
+    width: 768px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .contacto {
+    font-size: 10px;
+    font-style: normal;
+    text-align: left;
+  }
+  .nom-dire {
+    font-size: 10px;
+    margin-left: 500px;
+  }
+  .desafio {
+    font-size: 10px;
+    text-align: right;
+  }
+  .iconos {
+    justify-content: left;
+    width: 10px;
+    height: 10px;
+  }
+}
+/*Responsive tablet turnos*/
+@media (max-width: 1023px) {
+  .body {
+    margin: 0;
+    padding: 0;
+  }
+  .fondovioleta {
+    justify-content: cover;
+  }
+  .kninos- {
+    flex-direction: column;
+    justify-content: left;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .barra-inicio {
+    justify-content: space-between;
+    height: 25px;
+    font-size: 20px;
+    width: 768px;
+  }
+  .titulo-turnos {
+    text-align: center;
+  }
+  .tabla-turnos {
+    justify-content: center;
+    width: 100%;
+    height: 500%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer {
+    justify-content: space-between;
+    width: 768px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .contacto {
+    font-size: 10px;
+    font-style: normal;
+    text-align: left;
+  }
+  .nom-dire {
+    font-size: 10px;
+    margin-left: 500px;
+  }
+  .desafio {
+    font-size: 10px;
+    text-align: right;
+  }
+  .iconos {
+    justify-content: left;
+    width: 10px;
+    height: 10px;
+  }
 }
 
-
-}
+/*# sourceMappingURL=style.css.map */
