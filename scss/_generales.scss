@@ -1,10 +1,9 @@
-
-
 body {
     * {
-    margin: 0;
-    padding: 0;
-}
+        margin: 0;
+        padding: 0;
+    }
+
     .kninos- {
         text-align: left;
         font-family: "Judson", serif;
@@ -14,6 +13,7 @@ body {
         margin-top: 5px;
         margin-left: 20px;
     }
+
     .barra-inicio {
         color: white;
         font-family: "Judson", serif;
@@ -73,12 +73,71 @@ body {
         width: 30px;
         height: 30px;
     }
-    
+
 
 }
 
-    .fondovioleta {
+.fondovioleta {
     background-image: url(https://st4.depositphotos.com/23035388/24568/i/450/depositphotos_245686662-stock-illustration-abstract-violet-background-paints-mix.jpg);
     background-repeat: no-repeat;
     background-position: 100%;
+}
+
+main {
+    * {
+        font-family: "Judson", serif;
+    }
+
+    ul {
+        display: none;
+    }
+
+    input:checked~ul {
+        display: block;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+
+    label:hover {
+        background: grey;
+    }
+
+    input:checked~label {
+        background: lightgrey;
+    }
+
+    ul {
+        margin-top: 0;
+        padding: 0;
+        width: 200px;
+
+    }
+
+    li {
+        display: block;
+        background: lightgrey;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+    }
+
+    li:hover {
+        filter: brightness(110%);
+    }
 }
