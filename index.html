@@ -16,25 +16,30 @@
 
 <body>
     <header>
-        <p class="pdescuento"> 5% de descuento en productos con transferencia bancaria </p>
-        <h1 class="h1kninos"><strong>K.NINOS</strong></h1>
-        <nav>
-            <input type="checkbox" id="menu">
-            <label for="menu"> ☰ </label>
-            <ul>
-                <li>INICIO</li>
-                <li>Turnos</li>
-                <li>Accesorios</li>
-                <li>Productos Veterinarios</li>
-            </ul>
-        </nav>
-        <nav class="barra-inicio">
-            <a href="./registro.html">ACCEDER/REGISTARME</a>
-        </nav>
+        <div>
+            <p class="pdescuento"> 5% de descuento en productos con transferencia bancaria </p>
+            <nav class="carrito">
+                <img src="./assets/img/carrito-de-compras.png" alt="carrito-de-compras">
+            </nav>
+            <nav class="registro">
+                <p><a href="./pages/registro.html">ACCEDER/REGISTRARSE</a></p>
+            </nav>
+            <h1 class="h1kninos"><strong>K.NINOS</strong></h1>
+            <nav class="barra-inicio">
+                <a href="./index.html">INICIO</a>
+                <a href="./pages/tur.html">Turnos Online</a>
+                <a href="./pages/accesorios.html">Accesorios</a>
+                <a href="./pages/prod.html">Productos Veterinarios</a>
+            </nav>
+        </div>
     </header>
     <main>
-            <div class="banner-descuento">
-                <img src="./assets/img/banner20descuen.png" alt="Banner-descuento">
+        <section>
+            <div class="slider-container">
+                <img class="slaider-item" src="./assets/img/banner20descuen.png" alt="Banner-descuento">
+                <img class="slaider-item" src="./assets/img/bannner alimento balanceado.png"
+                    alt="alimento-balanceado-venta">
+                <img class="slaider-item" src="./assets/img/BANNERCUENTADNI.png" alt="cuneta-DNI">
             </div>
             <h2 class="quienes-somos"><strong>¿QUIENES SOMOS?</strong></h2>
             <p class="texto-inicio">Somos una peluquería canina abocada al <strong>bien estar y limpieza</strong> de
@@ -45,10 +50,11 @@
                 encargamos de que tu familia de cuatro patas tenga las comodidades y la atención necesaria para
                 <em>fortalecer su cabello, cuidar su piel y sus uñas para evitar cualquier tipo de complicación.</em>
             </p>
-            <img src="./assets/img/peinado-inicio.png" class="peinado-inicio" alt="perrito-con-moño">
-            <h2 class="alimento">ALIMENTOS BALANCEADOS Y DE MEJOR CALIDAD</h2>
-            <h2 class="venta-1">VENTA POR MAYOR Y POR MENOR</h2>
-            <img src="./assets/img/perritos.png" class="perritos-img" alt="perros-razas">
+            <div class="somos-pet">
+                <img src="./assets/img/banner-pet-friendly.jpg" alt="somos-pet-friendly">
+            </div>
+            <div>
+                <img src="./assets/img/peinado-inicio.png" class="peinado-inicio" alt="perrito-con-moño">
             </div>
         </section>
     </main>
@@ -56,8 +62,9 @@
         <div class="foot-con">
             <p class="contacto"><strong>CONTACTANOS</strong></p>
             <div class="iconos">
-                <img src="./assets/img/igicono.png" alt="instagram">
-                <img src="./assets/img/whatsappicono.png" alt="whatsapp">
+                <img src="./assets/img/instagram.png" alt="instagram">
+                <img src="./assets/img/whatsapp.png" alt="whatsapp">
+                <img src="./assets/img/telefono.png" alt="telefono">
             </div>
             <div>
                 <p class="nom-dire"><strong>K.NINOS</strong></p>
