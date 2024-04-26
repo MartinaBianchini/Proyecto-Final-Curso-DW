@@ -40,6 +40,13 @@ header {
 }
 
 main {
+
+    .inicio-tur {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 30px;
+    }
     .tabla-turnos {
         display: flexbox;
         height: 800px;

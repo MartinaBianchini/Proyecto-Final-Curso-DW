@@ -43,6 +43,8 @@ section {
         row-gap: 3.125rem;
         column-gap: 60px;
         grid-template-columns: auto;
+        align-items: center;
+        
     }
 
     .bozal-generico {
@@ -166,6 +168,7 @@ section {
     .colchon-1 {
         display: flex;
         margin-bottom: 10px;
+        margin-left: 30px;
         width: 250px;
         height: 200px;
         margin-top: 20px;
@@ -219,7 +222,7 @@ section {
     .pasta-dental {
         display: flex;
         margin-bottom: 10px;
-        width: 250px;
+        width: 150px;
         height: 200px;
         margin-top: 20px;
         flex-wrap: wrap;

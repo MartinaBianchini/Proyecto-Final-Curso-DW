@@ -255,6 +255,12 @@ header .titulo-turnos {
   justify-content: center;
 }
 
+main .inicio-tur {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
+}
 main .tabla-turnos {
   display: flexbox;
   height: 800px;
@@ -374,6 +380,7 @@ section .accesorios-img {
   row-gap: 3.125rem;
   column-gap: 60px;
   grid-template-columns: auto;
+  align-items: center;
 }
 section .bozal-generico {
   display: flex;
@@ -484,6 +491,7 @@ section .bulldog-2 {
 section .colchon-1 {
   display: flex;
   margin-bottom: 10px;
+  margin-left: 30px;
   width: 250px;
   height: 200px;
   margin-top: 20px;
@@ -532,7 +540,7 @@ section .juguete-soga {
 section .pasta-dental {
   display: flex;
   margin-bottom: 10px;
-  width: 250px;
+  width: 150px;
   height: 200px;
   margin-top: 20px;
   flex-wrap: wrap;
@@ -742,161 +750,92 @@ section .royal-pu {
   margin-bottom: 100px;
 }
 
-/*productos veterinarios*/
-.inicio-product {
+header .kninos- {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+  text-align: left;
+}
+header .barra-inicio {
+  color: white;
+  font-family: "Judson", serif;
+  font-weight: 12.5rem;
+  font-style: normal;
+  font-size: 30px;
+  background-color: rgba(253, 77, 194, 0.77);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+header .cuenta-1 {
+  display: flex;
+  color: black;
+  font-family: "Judson", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  justify-content: center;
+}
+header .inicio-acc {
   display: flex;
   margin-top: 20px;
   margin-left: 30px;
+  text-align: left;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+section .acceso-form {
+  display: flex;
+  justify-content: left;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+section .registro-form {
+  display: flex;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+  justify-content: right;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+section .acceder {
+  display: flex;
   font-size: 30px;
 }
-
-.productosvet-img {
-  display: flex;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  justify-content: space-around;
-  margin-left: 20px;
-  margin-right: 20px;
-  grid-template-rows: min-content;
-  row-gap: 6.25rem;
-  column-gap: 150px;
+section .label {
+  font-size: 20px;
 }
-
-.anti-cachorro {
+section .input {
   display: flex;
-  margin-bottom: 10px;
-  width: 150px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: right;
+  font-size: 35px;
 }
-
-.anti-grande {
+section .boton {
   display: flex;
-  margin-bottom: 10px;
-  width: 200px;
-  height: 150px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  border: none;
+  color: black;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 50px;
+  background-color: rgb(116, 0, 239);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
-
-.anti-gigante {
+section .tabla-acc {
   display: flex;
-  margin-bottom: 10px;
-  width: 200px;
-  height: 150px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.block-grande {
-  display: flex;
-  margin-bottom: 10px;
-  width: 200px;
-  height: 150px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.block-medio {
-  display: flex;
-  margin-bottom: 10px;
-  width: 200px;
-  height: 150px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.block-peque {
-  display: flex;
-  margin-bottom: 10px;
-  width: 200px;
-  height: 150px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.etchol {
-  display: flex;
-  margin-bottom: 10px;
-  width: 150px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.polvo-cica {
-  display: flex;
-  margin-bottom: 10px;
-  width: 100px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.spray-can {
-  display: flex;
-  margin-bottom: 10px;
-  width: 100px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.talco-pulgas {
-  display: flex;
-  margin-bottom: 10px;
-  width: 100px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.royal-ad {
-  display: flex;
-  margin-bottom: 10px;
-  width: 150px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.royal-med {
-  display: flex;
-  margin-bottom: 10px;
-  width: 150px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.royal-pu {
-  display: flex;
-  margin-bottom: 10px;
-  width: 150px;
-  height: 250px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  text-align: center;
+  justify-content: center;
 }
 
 /*Responsive movil index*/
