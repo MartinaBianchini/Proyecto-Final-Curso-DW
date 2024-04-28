@@ -21,10 +21,12 @@ body {
         font-style: normal;
         font-size: 30px;
         background-color: rgba(253, 77, 194, 0.77);
-        display: flex;
+        display: inline;
         justify-content: space-between;
         margin: 0;
         padding: 0;
+
+
     }
 
     .carrito { 
@@ -48,8 +50,6 @@ body {
         margin-right: 20px;
         margin-bottom: 5px;
     }
-
-
 
     footer {
         display: flex;

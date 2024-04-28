@@ -18,7 +18,7 @@ body .barra-inicio {
   font-style: normal;
   font-size: 30px;
   background-color: rgba(253, 77, 194, 0.77);
-  display: flex;
+  display: inline;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -190,19 +190,31 @@ section .slider-container img {
 section .quienes-somos {
   color: white;
   font-family: "Judson", serif;
-  font-weight: 400;
+  font-weight: 150;
   font-style: normal;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   margin-top: 5%;
 }
 section .texto-inicio {
   text-align: center;
+  align-items: center;
   color: white;
   font-family: "Judson", serif;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
+  font-size: 25px;
+}
+section .porque-kninos {
+  text-align: center;
   font-size: 35px;
+  color: white;
+  font-family: "Judson", serif;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 section .peinado-inicio {
   display: flex;
@@ -214,7 +226,7 @@ section .peinado-inicio {
 }
 section .somos-pet {
   display: flex;
-  margin-top: 20px;
+  width: 1510px;
   justify-content: center;
 }
 
@@ -229,7 +241,7 @@ header .kninos- {
   font-weight: 400;
   font-style: normal;
   color: black;
-  font-size: 60px;
+  font-size: 80px;
   text-align: left;
 }
 header .barra-inicio {
@@ -244,7 +256,15 @@ header .barra-inicio {
   margin: 0;
   padding: 0;
 }
-header .titulo-turnos {
+
+main .inicio-tur {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+section .titulo-turnos {
   display: flex;
   color: black;
   font-family: "Judson", serif;
@@ -254,90 +274,66 @@ header .titulo-turnos {
   text-align: center;
   justify-content: center;
 }
-
-main .inicio-tur {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 30px;
+section * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section .main form {
+  padding: 1em;
+  background: rgba(138, 138, 138, 0.288);
+  border: 1px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+section .main h2 {
+  font-family: "Judson", serif;
+  color: black;
   font-size: 30px;
 }
-main .tabla-turnos {
-  display: flexbox;
-  height: 800px;
-  align-items: center;
-  margin-left: 250px;
-}
-main .t-ubicacion {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  margin-top: 5px;
-  margin-left: 30%;
-  justify-content: center;
-  text-align: center;
-}
-main .t-servicios {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  margin-top: 5px;
-  margin-left: 30%;
-  justify-content: center;
-  text-align: center;
-}
-main .t-fechayhora {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  margin-top: 5px;
-  margin-left: 30%;
-  text-align: center;
-}
-main .t-informacion {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  margin-top: 5px;
-  margin-left: 30%;
-  justify-content: center;
-  text-align: center;
-}
-main .ubi-1 {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  text-align: center;
-  justify-content: left;
-}
-main .servi-1 {
-  background-color: rgba(216, 0, 216, 0.434);
-  text-align: center;
-  justify-content: left;
-}
-main .lista-servi {
-  font-size: 20px;
+section .container {
+  width: 70%;
+  margin: 0 auto;
   text-align: left;
-  justify-content: left;
-  list-style: none;
-  margin-left: 160px;
+  padding: 30px;
+  box-shadow: 3px 3px 10px #000;
 }
-main .d-1 {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  margin-right: 30px;
-  margin-top: 5px;
-  text-align: center;
-}
-main .info-1 {
-  background-color: rgba(216, 0, 216, 0.434);
-  font-size: 20px;
-  text-align: left;
-  justify-content: left;
-}
-main .boton-conf {
+section .cajas {
+  margin: 15px 0;
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+  outline: 3px solid rgb(149, 0, 255);
   display: flex;
-  align-items: center;
+  font-size: 30px;
+}
+section .cajas:hover {
+  border: 2px solid #000;
+  box-shadow: 3px 3px 6px #fff;
+}
+section .cajas {
+  margin: 5px 0;
+  background-color: rgba(228, 130, 217, 0.3137254902);
+  outline: 3px solid rgba(153, 0, 255, 0.5450980392);
+}
+section .cajas:hover {
+  outline: 3px solid rgba(153, 0, 255, 0.5450980392);
+  box-shadow: 3px 3px 6px #fff;
+}
+section .boton {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
   justify-content: center;
-  margin-top: 50px;
-  font-size: 10px;
-  font-weight: bold;
-  align-items: center;
-  margin-bottom: 20px;
+}
+section .boton:hover {
+  background: rgba(211, 211, 211, 0.386);
+  background: rgb(174, 0, 255);
+  padding: 0.7em;
+  border: 0;
 }
 
 /*accesorios*/
@@ -789,51 +785,52 @@ header .inicio-acc {
   transition: transform 0.3s ease-in-out;
 }
 
-section .acceso-form {
-  display: flex;
-  justify-content: left;
+section * {
   box-sizing: border-box;
-  font-family: "lato", sans-serif;
-  margin-top: 40px;
-  margin-left: 20px;
 }
-section .registro-form {
-  display: flex;
-  box-sizing: border-box;
-  font-family: "lato", sans-serif;
-  justify-content: right;
-  font-size: 50px;
-  margin-top: 40px;
-  margin-right: 20px;
+section form {
+  padding: 1em;
+  background: rgba(138, 138, 138, 0.288);
+  border: 1px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
 }
-section .acceder {
-  display: flex;
-  font-size: 30px;
+section form input {
+  margin-bottom: 1rem;
+  background: rgba(228, 130, 217, 0.3137254902);
+  border: 1px solid #000000;
 }
-section .label {
-  font-size: 20px;
+section form button {
+  background: rgb(174, 0, 255);
+  padding: 0.7em;
+  border: 0;
+}
+section form button:hover {
+  background: rgba(211, 211, 211, 0.386);
+}
+section label {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+section input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+section input:focus {
+  outline: 3px solid rgba(153, 0, 255, 0.5450980392);
 }
 section .input {
   display: flex;
-  justify-content: right;
-  font-size: 35px;
+  font-size: 30px;
 }
 section .boton {
   display: flex;
-  border: none;
-  color: black;
-  padding: 14px 28px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 50px;
-  background-color: rgb(116, 0, 239);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  transition: transform 0.3s ease-in-out;
-}
-section .tabla-acc {
-  display: flex;
+  font-size: 30px;
   text-align: center;
   justify-content: center;
 }

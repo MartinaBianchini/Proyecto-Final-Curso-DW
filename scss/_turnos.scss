@@ -10,7 +10,7 @@ header {
         font-weight: 400;
         font-style: normal;
         color: black;
-        font-size: 60px;
+        font-size: 80px;
         text-align: left;
     }
 
@@ -27,6 +27,20 @@ header {
         padding: 0;
     }
 
+
+}
+main {
+    .inicio-tur {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 30px;
+    }
+
+}
+
+section {
+    
     .titulo-turnos {
         display: flex;
         color: black;
@@ -37,109 +51,74 @@ header {
         text-align: center;
         justify-content: center;
     }
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-main {
+    .main form {
+        padding: 1em;
+        background: rgba(138, 138, 138, 0.288);
+        border: 1px solid #c1c1c1;
+        margin-top: 2rem;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+    }
 
-    .inicio-tur {
-        display: flex;
-        margin-top: 20px;
-        margin-left: 30px;
+    .main h2 {
+        font-family: "Judson", serif;
+        color: black;
         font-size: 30px;
     }
-    .tabla-turnos {
-        display: flexbox;
-        height: 800px;
-        align-items: center;
-        margin-left: 250px;
-    }
 
-    .t-ubicacion {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        font-size: 20px;
-        margin-top: 5px;
-        margin-left: 30%;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .t-servicios {
-        background-color: rgba(216, 0, 216, 0.434);
-        font-size: 20px;
-        margin-top: 5px;
-        margin-left: 30%;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .t-fechayhora {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        font-size: 20px;
-        margin-top: 5px;
-        margin-left: 30%;
-        text-align: center;
-    }
-
-    .t-informacion {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        font-size: 20px;
-        margin-top: 5px;
-        margin-left: 30%;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .ubi-1 {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        font-size: 20px;
-        text-align: center;
-        justify-content: left;
-    }
-
-    .servi-1 {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        text-align: center;
-        justify-content: left;
-    }
-
-    .lista-servi {
-        font-size: 20px;
+    .container {
+        width: 70%;
+        margin: 0 auto;
         text-align: left;
-        justify-content: left;
-        list-style: none;
-        margin-left: 160px;
+        padding: 30px;
+        box-shadow: 3px 3px 10px #000;
     }
 
-    .d-1 {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        font-size: 20px;
-        margin-right: 30px;
-        margin-top: 5px;
-        text-align: center;
-    }
-
-    .info-1 {
-        background-color: rgba(216, 0, 216, 0.434);
-        ;
-        font-size: 20px;
-        text-align: left;
-        justify-content: left;
-    }
-
-    .boton-conf {
+    .cajas {
+        margin: 15px 0;
+        width: 100%;
+        padding: 0.7em;
+        margin-bottom: 0.5rem;
+        outline: 3px solid rgb(149, 0, 255);
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-        font-size: 10px;
-        font-weight: bold;
-        align-items: center;
-        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .cajas:hover {
+        border: 2px solid #000;
+        box-shadow: 3px 3px 6px #fff;
+    }
+
+    .cajas {
+        margin: 5px 0;
+        background-color: #e482d950;
+        outline: 3px solid #9900ff8b;
+    }
+
+    .cajas:hover {
+        outline: 3px solid #9900ff8b;
+        box-shadow: 3px 3px 6px #fff;
+    }
+
+    .boton {
+        display: flex;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center
+    }
+
+    .boton:hover {
+        background: rgba(211, 211, 211, 0.386);
+        background: rgb(174, 0, 255);
+        padding: 0.7em;
+        border: 0;
     }
 }

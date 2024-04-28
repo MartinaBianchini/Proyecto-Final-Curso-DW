@@ -59,19 +59,34 @@ section {
     .quienes-somos {
         color: white;
         font-family: "Judson", serif;
-        font-weight: 400;
+        font-weight: 150;
         font-style: normal;
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         margin-top: 5%;
     }
     .texto-inicio {
         text-align: center;
+        align-items: center;
         color: white;
         font-family: "Judson", serif;
-        font-weight: 400;
+        font-weight: 100;
         font-style: normal;
+        font-size: 25px;
+    }
+
+    .porque-kninos {
+        
+        text-align: center;
         font-size: 35px;
+        color: white;
+        font-family:"Judson", serif ;
+        font-style: normal;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
     }
     .peinado-inicio {
         display: flex;
@@ -84,8 +99,9 @@ section {
 
 .somos-pet { 
     display: flex;
-    margin-top: 20px;
+    width: 1510px;
     justify-content: center;
+    
 }
 
 }
