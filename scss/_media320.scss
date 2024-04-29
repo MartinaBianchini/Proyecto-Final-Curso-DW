@@ -1,92 +1,92 @@
-/*Responsive movil index*/
-
-@media screen and (max-width: 20rem) {
-    body {
-        margin: 0%;
-        padding: 0%;
-        flex-direction: column;
-        background-size: cover ;
-        justify-content: space-evenly;
-}
-
+@media (max-width: 320px) {
     .h1kninos {
-        flex-direction: row;
-        text-align: left;
-        margin-top: 20px;
-        margin-left: 20px;
-        font-size: 20px;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
+
     .pdescuento{
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
         background-size: cover;
-        height: 25px;
-        font-size: 15px;
+        height: 10px;
+        font-size: 7px;
         width: 320px;
     }
 
     .barra-inicio{
-        flex-direction: column;
-        background-size: contain;
-        justify-content: space-between;
-        height: 40px;
-        font-size: 15px;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 15px;
+        font-size: 10px;
         width: 320px;
 
-}
-.quienes-somos{
-    flex-direction: column;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 20%;
+    }
+    .carrito { 
+        width: 10px;
+        height: 10px;
+        margin-left: 30px;
+        
+    }
 
-}
-.texto-inicio{
-    flex-direction: column;
-    text-align: center;
-    font-size: 10px;
-
-}
-.peinado-inicio{
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-left: 30%;
-    align-items: center;
-    image-resolution: 20px;
+    .slider-container img {
     
+    }
 
-}
-.perritos-img {
-    justify-items: center;
-    margin-right: 100%;
-    align-items: center;
+    .quienes-somos{
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 5px;
 
+    }
+    .texto-inicio{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .porque-kninos {
+        display: flex;
+        font-size: 7px;
+        margin-top: 7px;
+        margin-bottom: 5px;
+        font-size: 7px;
+    }
 
-}
+    .lista-xp {
+        display: flex;
+        margin-bottom: 2px;
+        margin-top: 5px;
+        font-size: 7px;
+    }
+    .peinado-inicio{
+        margin-left: 13px;
+        width: 100px;
+        height: 100px;
+    }
 
-.alimento{
+    .somos-pey {
+        width: 200px;
+    }
+
+body {
     flex-direction: column;
+    background-size: cover ;
     justify-content: space-evenly;
-    align-items: center;
-    width: 320px;
-    font-size: 10px;
-}
-.venta-1{
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 320px;
-    font-size: 10px;
+
 }
 
 footer {
     justify-content: space-between;
-    width: 320px;
+    width: 768px;
     height: 20px;
     text-align: center;
     align-items: center;
-    margin-bottom: auto;
 }
 
 .contacto {
@@ -98,19 +98,141 @@ footer {
 
 .nom-dire {
     font-size: 5px ;
-    text-align: center ;
+    text-align: center;
+
 }
-
 .desafio{
-    font-size: 5px ;
+    font-size: 10px ;
     text-align: right;
-
 }
 
 .iconos {
     justify-content: left;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
+}
+}
+/*Responsive tablet turnos*/
+
+@media (max-width: 320px) {
+    .body { 
+        margin: 0;
+        padding: 0;
+    }
+    .fondovioleta {
+        justify-content: cover;
+    }
+
+    .kninos- {
+        flex-direction: column;
+        justify-content: left;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .barra-inicio{
+        justify-content: space-around;
+        height: 15px;
+        font-size: 10px;
+        width: 320px;
+    }
+
+    .titulo-turnos{
+        text-align: center;
+
+    }
+
+    .tabla-turnos {
+        justify-content: center;
+        width: 50%;
+        height: 250%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer {
+        margin-bottom: 0;
+    }
+    }
+
+/*Responsive tablet accesorios*/ 
+
+@media (max-width: 320px) {
+    .kninos- {
+        flex-direction: column;
+        justify-content: left;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .barra-inicio{
+        justify-content: space-around;
+        height: 15px;
+        font-size: 10px;
+        width: 320px;
+    }
+    
+    .inicio-acc {
+    font-size: 15px;
+}
+
+.accesorios-img {
+    margin-left: 5px;
+    margin-right: 5px;
+    column-gap: 15px;
+
+}
+
+}
+/*Responsive tablet productos veterinarios*/
+@media (max-width: 320px) {
+    .kninos- {
+        flex-direction: column;
+        justify-content: left;
+        font-size: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .barra-inicio{
+        justify-content: space-around;
+        height: 15px;
+        font-size: 10px;
+        width: 320px;
+    }
+    
+    .inicio-product {
+    font-size: 7px;
+}
+.productosvet-img{
+    margin-left: 5px;
+    margin-right: 5px;
+    column-gap: 15px;
+}
+    
+}
+
+/*Responsive tablet acceso*/
+@media (max-width: 320px) {
+    .kninos- {
+        flex-direction: column;
+        justify-content: left;
+        font-size: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .barra-inicio{
+        justify-content: space-around;
+        height: 15px;
+        font-size: 10px;
+        width: 320px;
+    }
+    
+    .inicio-acc {
+    font-size: 15px;
 }
 
 }

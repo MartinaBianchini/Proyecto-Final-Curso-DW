@@ -2,6 +2,7 @@ body {
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
     .kninos- {
@@ -10,7 +11,6 @@ body {
         font-size: 80px;
         font-style: normal;
         color: white;
-
         margin-left: 20px;
     }
 
@@ -25,19 +25,17 @@ body {
         justify-content: space-between;
         margin: 0;
         padding: 0;
-
-
     }
 
     .carrito { 
         display: flex;
-        justify-content: right;
+        justify-content: space-between right;
         width: 35px;
         height: 35px;
         margin-top: 50px;
         margin-bottom: 5px;
-        margin-left: 1300px;
-        
+        margin-right: 30px;
+        margin-left: 1200px;
     }
     
     .registro {
@@ -52,7 +50,7 @@ body {
     }
 
     footer {
-        display: flex;
+        display: flexbox;
         background-color: blueviolet;
         font-family: "Judson", serif;
         width: 100%;
@@ -62,32 +60,36 @@ body {
     .foot-con {
         display: flex;
         margin-top: 10px;
+        justify-content: space-between;
 
     }
 
     .contacto {
-        display: flex;
+        display: flexbox;
         font-size: 15px;
         font-style: normal;
         color: black;
         text-align: left;
+        margin-left: 20px;
 
     }
 
     .nom-dire {
-        display: flex;
+        display: flexbox;
         font-size: 15px;
         color: black;
-        margin-left: 500px;
         text-align: center;
+        align-items: center;
     }
 
     .desafio {
-        display: flex;
+        display: flexbox;
         font-size: 15px;
         font-style: normal;
         color: black;
         text-align: right;
+        justify-content: right;
+        margin-right: 20px;
 
     }
 
